@@ -24,5 +24,8 @@ public  class Coche {
         System.out.println("hola mundo");
         String modelo1 = c1.toString();
         System.out.println(modelo1);
+        Coche c2=new Coche(300,"dacia");
+        String modelo2= c2.toString();
+        System.out.println(modelo2);
     }
 }
